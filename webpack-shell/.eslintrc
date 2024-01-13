@@ -1,0 +1,43 @@
+{
+  "settings": {
+    "react": {
+      "version": "detect"   // Automatically detect the react version
+    }
+  },
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true,
+    "amd": true
+  },
+  "extends": [
+    "react-important-stuff",
+    "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@tanstack/eslint-plugin-query/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "tsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "simple-import-sort",
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "no-console": 2,
+    "camelcase": "warn",
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+    "react-hooks/rules-of-hooks": "warn",
+    "react-hooks/exhaustive-deps": 0,
+    "@typescript-eslint/no-var-requires": 0, // disable eslint 'require' error
+    "prettier/prettier": [
+      "error", {}, { "usePrettierrc": true }]
+  }
+}

@@ -1,0 +1,25 @@
+// TS config shared by all hosts and remotes
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es2020",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "jsx": "react",
+    "declaration": true,
+    "declarationDir": "types",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "emitDeclarationOnly": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "baseUrl": "./",
+  },
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
+}
