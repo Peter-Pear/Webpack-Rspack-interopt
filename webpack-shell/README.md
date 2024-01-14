@@ -1,20 +1,19 @@
 # Shell
-=======
 
 Shell is an Webpack module fedration app 
 
-### Install
+# Setup
 ```
 npm i
 ```
 
-### Start in dev mode
+#Get started
 
 ```
 npm run dev
 ```
 
-### Build Shell app
+# Build
 
 ```
 npm run build
