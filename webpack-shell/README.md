@@ -6,15 +6,14 @@ Shell is an Webpack module fedration app
 ```
 npm i
 ```
+# Get Started
 
-#Get started
-
+Start the dev server:
 ```
 npm run dev
 ```
 
-# Build
-
+Build the app for production:
 ```
 npm run build
 ```
