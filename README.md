@@ -1,0 +1,3 @@
+### WEBPACK, RSPACK Interopt
+
+Module Federation is exemplified through the collaboration of a Webpack shell application and an RSPack remote application. In this scenario, Module Federation serves as the architectural glue, allowing these distinct applications to seamlessly share and integrate modules. The Webpack shell app acts as the central hub, while the RSPack remote app functions as a remote module provider. Through this setup, Module Federation enables efficient communication and module sharing between these two applications, showcasing its capabilities in fostering modular and interoperable web development.
